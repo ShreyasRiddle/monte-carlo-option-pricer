@@ -1,0 +1,33 @@
+/* Main dropdown box */
+.Select-control {
+    background-color: #0f0f0f !important;
+    color: #ffffff !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Dropdown menu (expanded area) */
+.Select-menu-outer {
+    background-color: #0f0f0f !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+/* Each dropdown option */
+.Select-option {
+    background-color: #0f0f0f !important;
+    color: #ffffff !important;
+}
+
+/* When hovering over options */
+.Select-option.is-focused {
+    background-color: #1e1e1e !important;
+}
+
+/* Selected option inside dropdown list */
+/* Dropdown box text */
+.Select-value, .Select-value-label, .Select-placeholder {
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+
