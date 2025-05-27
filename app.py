@@ -9,6 +9,7 @@ from monte_carlo import generate_gbm_paths, price_option_mc
 from black_scholes import black_scholes_price
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 app.title = "Monte Carlo Option Pricer"
 
 input_style = {
