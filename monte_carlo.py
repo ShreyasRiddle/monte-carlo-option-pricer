@@ -16,9 +16,6 @@ def generate_gbm_paths(S0, r, sigma, T, n_steps, n_sims):
 
 
 def price_option_mc(paths, K, r, T, option_type='call'):
-    """
-    Estimate the price of a European option using Monte Carlo simulation.
-
     Parameters:
         paths (ndarray): Simulated GBM paths (n_sims x n_steps+1)
         K (float): Strike price
